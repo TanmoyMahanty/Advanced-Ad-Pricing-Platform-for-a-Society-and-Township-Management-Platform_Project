@@ -33,3 +33,5 @@ Location-Specific Models: Models for each location that meet the minimum data re
 Dashboard Creation: An interactive dashboard provides users with a visual understanding of pricing trends, campaign performance, and CPC variance.
 Simulation Execution: The platform runs a continuous simulation, periodically generating new data, updating models, and refreshing the dashboard with the latest predictions and insights.
 This platform combines robust machine learning with visual insights, enabling township and society managers to better understand ad pricing trends and optimize for campaign success.
+
+Install dependencies with pip: Open a terminal or command prompt, navigate to your project directory, and run: pip install -r requirements.txt
