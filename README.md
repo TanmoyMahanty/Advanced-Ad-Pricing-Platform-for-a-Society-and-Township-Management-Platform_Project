@@ -7,6 +7,7 @@ Real-Time Ad Pricing Simulation: Continuously generates synthetic ad data to sim
 Machine Learning-Driven Predictions:
 Global Ad Pricing Model: Utilizes a Random Forest Regressor to analyze and predict CPC across all locations.
 Location-Specific Models: Tailored models for individual locations to capture city-specific ad performance and pricing dynamics.
+
 Database Management and Data Buffering:
 Efficient data storage with SQLite.
 Advanced buffer for managing real-time data influx.
@@ -18,6 +19,7 @@ Bar Chart: Displays average CPC by location.
 Box Plot: Shows CPC distribution, helping identify pricing outliers.
 Pie Chart: Highlights the distribution of different campaign types.
 Scatter Plot: Tracks CPC trends over time for ongoing analysis.
+
 How It Works
 Data Generation and Storage: Synthetic ad data is generated and stored in a structured SQLite database.
 Data Loading and Preprocessing: Data is periodically loaded, cleaned, and encoded to create robust feature sets for model training.
