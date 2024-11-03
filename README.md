@@ -2,13 +2,13 @@
 Overview
 The Advanced Ad Pricing Platform is a powerful tool designed for society and township management systems to dynamically adjust and optimize ad pricing across various locations and campaign types. This platform uses machine learning to simulate and predict cost-per-click (CPC) prices based on multiple factors, creating insights into ad performance and campaign effectiveness.
 
-Key Features
+Key Features:-
 Real-Time Ad Pricing Simulation: Continuously generates synthetic ad data to simulate different campaign types across cities, seasons, income levels, and other metrics.
 Machine Learning-Driven Predictions:
 Global Ad Pricing Model: Utilizes a Random Forest Regressor to analyze and predict CPC across all locations.
 Location-Specific Models: Tailored models for individual locations to capture city-specific ad performance and pricing dynamics.
 
-Database Management and Data Buffering:
+Database Management and Data Buffering:-
 Efficient data storage with SQLite.
 Advanced buffer for managing real-time data influx.
 Advanced Data Preprocessing:
@@ -20,7 +20,7 @@ Box Plot: Shows CPC distribution, helping identify pricing outliers.
 Pie Chart: Highlights the distribution of different campaign types.
 Scatter Plot: Tracks CPC trends over time for ongoing analysis.
 
-How It Works
+How It Works:-
 Data Generation and Storage: Synthetic ad data is generated and stored in a structured SQLite database.
 Data Loading and Preprocessing: Data is periodically loaded, cleaned, and encoded to create robust feature sets for model training.
 Model Training:
