@@ -5,7 +5,6 @@ The Advanced Ad Pricing Platform is a powerful tool designed for society and tow
 
 
 Key Features:-
-
 Real-Time Ad Pricing Simulation: Continuously generates synthetic ad data to simulate different campaign types across cities, seasons, income levels, and other metrics.
 Machine Learning-Driven Predictions:
 Global Ad Pricing Model: Utilizes a Random Forest Regressor to analyze and predict CPC across all locations.
@@ -26,7 +25,6 @@ Scatter Plot: Tracks CPC trends over time for ongoing analysis.
 
 
 How It Works:-
-
 Data Generation and Storage: Synthetic ad data is generated and stored in a structured SQLite database.
 Data Loading and Preprocessing: Data is periodically loaded, cleaned, and encoded to create robust feature sets for model training.
 Model Training:
